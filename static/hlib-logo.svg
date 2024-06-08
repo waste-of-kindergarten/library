@@ -1,0 +1,27 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_2" d="m645.49931,319.77474" opacity="NaN" stroke="#000" fill="#fff"/>
+  <rect stroke="#000" id="svg_10" height="41" width="387.00001" y="517.36063" x="512.358" fill="#007fff"/>
+  <rect id="svg_11" height="438" width="17" y="324.36063" x="493.35802" stroke="#000" fill="#660ef4"/>
+  <rect id="svg_13" height="438" width="17" y="324.36063" x="493.35802" stroke="#000" fill="#660ef4"/>
+  <rect id="svg_14" height="438" width="17" y="324.36063" x="494.35802" stroke="#000" fill="#007fff"/>
+  <rect id="svg_15" height="438" width="17" y="319.36063" x="900.35802" stroke="#000" fill="#007fff"/>
+  <line id="svg_16" y2="321.58286" x2="899.35801" y1="325.58286" x1="511.35802" stroke="#000" fill="none"/>
+  <line id="svg_18" y2="756.58285" x2="901.35801" y1="761.58285" x1="508.35802" stroke="#000" fill="none"/>
+  <path id="svg_25" d="m899.35801,467.58285" opacity="NaN" stroke="#000" fill="none"/>
+  <path id="svg_26" d="m899.35801,456.58285c-64,-59 -78,-47 -78.44445,-47.22222" opacity="NaN" stroke="#000" fill="none"/>
+  <path opacity="0.3" id="svg_27" d="m545.35802,351.58286l15,0l0,138l-15,0l0,-138z" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_29" height="138" width="15" y="350.58285" x="606.35802" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_30" height="138" width="15" y="351.58285" x="675.35802" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_31" height="138" width="15" y="351.58285" x="741.35802" stroke="#000" fill="#b2b2b2"/>
+  <path id="svg_24" d="m748.35802,322.58286c94,59 74,86 73.55555,85.77778" opacity="NaN" stroke="#000" fill="none"/>
+  <rect opacity="0.3" id="svg_32" height="138" width="15" y="586.58285" x="544.35802" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_33" height="138" width="15" y="587.58285" x="609.35802" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_34" height="138" width="15" y="586.58285" x="675.35802" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_35" height="138" width="15" y="586.58285" x="739.35802" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_36" height="138" width="15" y="587.58285" x="804.35802" stroke="#000" fill="#b2b2b2"/>
+  <text transform="matrix(1.59617 0 0 1.57708 -373.808 -418.71)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Alegreya'" font-size="250" stroke-width="10" id="svg_39" y="735.85245" x="814.48819" fill="#000000">Lib</text>
+ </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="424" height="443.00000000000006" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_2" d="m152.14127,0.41412" opacity="NaN" stroke="#000" fill="#fff"/>
+  <rect stroke="#000" id="svg_10" height="41" width="387.00001" y="198" x="18.99997" fill="#007fff"/>
+  <rect id="svg_11" height="438" width="17" y="5" x="-0.00001" stroke="#000" fill="#660ef4"/>
+  <rect id="svg_13" height="438" width="17" y="5" x="-0.00001" stroke="#000" fill="#660ef4"/>
+  <rect id="svg_14" height="438" width="17" y="5" x="0.99999" stroke="#000" fill="#007fff"/>
+  <rect id="svg_15" height="438" width="17" y="0" x="406.99999" stroke="#000" fill="#007fff"/>
+  <line id="svg_16" y2="2.22223" x2="405.99998" y1="6.22223" x1="17.99999" stroke="#000" fill="none"/>
+  <line id="svg_18" y2="437.22223" x2="407.99998" y1="442.22223" x1="14.99999" stroke="#000" fill="none"/>
+  <path id="svg_25" d="m405.99998,148.22223" opacity="NaN" stroke="#000" fill="none"/>
+  <path id="svg_26" d="m405.99998,137.22223c-64,-59 -78,-47 -78.44445,-47.22222" opacity="NaN" stroke="#000" fill="none"/>
+  <path opacity="0.3" id="svg_27" d="m51.99999,32.22223l15,0l0,138l-15,0l0,-138z" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_29" height="138" width="15" y="31.22223" x="112.99999" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_30" height="138" width="15" y="32.22223" x="181.99999" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_31" height="138" width="15" y="32.22223" x="247.99999" stroke="#000" fill="#b2b2b2"/>
+  <path id="svg_24" d="m254.99998,3.22223c94,59 74,86 73.55555,85.77778" opacity="NaN" stroke="#000" fill="none"/>
+  <rect opacity="0.3" id="svg_32" height="138" width="15" y="267.22223" x="50.99999" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_33" height="138" width="15" y="268.22223" x="115.99999" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_34" height="138" width="15" y="267.22223" x="181.99999" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_35" height="138" width="15" y="267.22223" x="245.99999" stroke="#000" fill="#b2b2b2"/>
+  <rect opacity="0.3" id="svg_36" height="138" width="15" y="268.22223" x="310.99999" stroke="#000" fill="#b2b2b2"/>
+ </g>
+</svg>

@@ -40,8 +40,8 @@ instance Controller UsersController where
         let passwordConfirmation = param @Text "passwordConfirmation"
         user
             |> fill @["email","passwordHash"]
-            |> validateField #passwordHash (isEqual passwordConfirmation |> 
-                withCustomErrorMessage "Password not match")
+            |> (validateField #passwordHash (isEqual passwordConfirmation |> 
+                withCustomErrorMessage "Password not match"))
             |> validateField #passwordHash nonEmpty 
             |> validateField #email isEmail 
             |> validateIsUnique #email 
