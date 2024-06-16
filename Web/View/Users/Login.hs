@@ -1,13 +1,16 @@
-module Web.View.Sessions.New where
-import Web.View.Prelude
-import IHP.AuthSupport.View.Sessions.New
-import Web.View.Layout 
+module Web.View.Users.Login where
 
-instance View (NewView User) where
-    html NewView { .. } =  [hsx|
+import Web.View.Prelude 
+import Web.View.Layout
+import IHP.AuthSupport.Controller.Sessions 
+
+
+data LoginView = LoginView {user :: User}
+
+instance View LoginView where 
+    html LoginView { .. } = [hsx|
         {loginLayout renderForm}
     |]
-
 
 renderForm ::  Html 
 renderForm  = [hsx|
@@ -20,7 +23,6 @@ renderForm  = [hsx|
         <label class="form-label" for="user_passwordHash">Password</label>
         <input type="password" name="password" placeholder="" id="user_passwordHash" class="form-control" required="required"> 
     </div>
-    forget password ?
     <div style="text-align:center"><button class="btn btn-primary" type="submit" style="width:100%">Login</button></div>
 </form>
 |]

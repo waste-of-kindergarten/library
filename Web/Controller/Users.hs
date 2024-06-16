@@ -5,12 +5,17 @@ import Web.View.Users.Index
 import Web.View.Users.New
 import Web.View.Users.Edit
 import Web.View.Users.Show
+import Web.View.Users.Login 
 import Web.Mail.Users.Confirmation
 
 instance Controller UsersController where
     action UsersAction = do
         users <- query @User |> fetch
         render IndexView { .. }
+
+    action LoginAction = do 
+        let user = newRecord 
+        render LoginView { .. }
 
     action NewUserAction = do
         let user = newRecord
@@ -21,19 +26,26 @@ instance Controller UsersController where
         render ShowView { .. }
 
     action EditUserAction { userId } = do
-        user <- fetch userId
-        render EditView { .. }
+        --user <- fetch userId
+        render EditView 
 
-    action UpdateUserAction { userId } = do
-        user <- fetch userId
+    action UpdateUserAction  = do
+        user <- fetch currentUser.id 
+        let passwordConfirmation = param @Text "passwordConfirmation"
         user
-            |> buildUser
+            |> fill @["email","passwordHash"]
+            |> (validateField #passwordHash (isEqual passwordConfirmation)) 
             |> ifValid \case
-                Left user -> render EditView { .. }
+                Left user -> do 
+                    setErrorMessage "Password not match"
+                    render EditView
                 Right user -> do
-                    user <- user |> updateRecord
+                    hashed <- hashPassword user.passwordHash 
+                    user <- user 
+                        |> set #passwordHash hashed
+                        |> updateRecord
                     setSuccessMessage "User updated"
-                    redirectTo EditUserAction { .. }
+                    redirectTo UsersAction 
 
     action CreateUserAction = do
         let user = newRecord @User
@@ -62,5 +74,4 @@ instance Controller UsersController where
         setSuccessMessage "User deleted"
         redirectTo UsersAction
 
-buildUser user = user
-    |> fill @'["email", "passwordHash", "failedLoginAttempts"]
+

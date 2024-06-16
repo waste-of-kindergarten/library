@@ -22,13 +22,14 @@ cabal-version:       >=1.10
 
 executable App
   main-is:             Main.hs
-  -- other-modules:
+  --other-modules:      Generated
   -- other-extensions:
   build-depends:
   	ihp,
   	base,
   	wai,
     text
+
   hs-source-dirs:      .
   default-language:    Haskell2010
   extensions:

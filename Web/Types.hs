@@ -31,6 +31,38 @@ data UsersController
     | ShowUserAction { userId :: !(Id User) }
     | CreateUserAction
     | EditUserAction { userId :: !(Id User) }
-    | UpdateUserAction { userId :: !(Id User) }
+    | UpdateUserAction 
     | DeleteUserAction { userId :: !(Id User) }
+    | LoginAction 
+    deriving (Eq, Show, Data)
+
+data BooksController
+    = BooksAction
+    | NewBookAction
+    | ShowBookAction { bookId :: !(Id Book) }
+    | CreateBookAction
+    | EditBookAction { bookId :: !(Id Book) }
+    | UpdateBookAction { bookId :: !(Id Book) }
+    | DeleteBookAction { bookId :: !(Id Book) }
+    | DownloadBookAction {bookId :: !(Id Book) }
+    deriving (Eq, Show, Data)
+
+data ReadersController
+    = ReadersAction
+    | NewReaderAction
+    | ShowReaderAction 
+    | CreateReaderAction
+    | EditReaderAction { readerId :: !(Id Reader) }
+    | UpdateReaderAction { readerId :: !(Id Reader) }
+    | DeleteReaderAction { readerId :: !(Id Reader) }
+    deriving (Eq, Show, Data)
+
+data CommentsController
+    = CommentsAction
+    | NewCommentAction
+    | ShowCommentAction { commentId :: !(Id Comment) }
+    | CreateCommentAction
+    | EditCommentAction { commentId :: !(Id Comment) }
+    | UpdateCommentAction { commentId :: !(Id Comment) }
+    | DeleteCommentAction { commentId :: !(Id Comment) }
     deriving (Eq, Show, Data)

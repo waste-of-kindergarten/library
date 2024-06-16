@@ -9,3 +9,12 @@ instance AutoRoute StaticController
 instance AutoRoute SessionsController 
 instance AutoRoute UsersController
 
+
+instance AutoRoute BooksController
+
+
+instance AutoRoute ReadersController
+
+
+instance AutoRoute CommentsController
+
